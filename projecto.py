@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python SINCRONIZACIÓN
 # -*- coding: utf-8 -*-
 from tkinter import *
 from math import *
@@ -29,7 +29,7 @@ def clear():
 ventana=Tk()
 ventana.title("CALCULADORA")
 ventana.geometry("392x600")
-ventana.configure(background="SkyBlue4")
+ventana.configure(background="white")
 color_boton=("gray77")
  
 ancho_boton=11
@@ -38,7 +38,7 @@ input_text=StringVar()
 operador=""
  
 Salida=Entry(ventana,font=('arial',20,'bold'),width=22,
-textvariable=input_text,bd=20,insertwidth=4,bg="powder blue",justify="right")
+textvariable=input_text,bd=20,insertwidth=4,bg="gray",justify="right")
 Salida.place(x=10,y=60)
  
 #AÑADIR BOTONES.
